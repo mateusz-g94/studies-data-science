@@ -1,0 +1,3 @@
+Returned object: {'date': '17-06-2020'}
+Returned modified object: {'date': '18-06-2020'}
+Returned deleted object: None
