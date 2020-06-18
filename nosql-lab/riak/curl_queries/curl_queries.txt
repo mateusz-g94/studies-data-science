@@ -1,0 +1,46 @@
+1.
+
+curl -v  -X PUT http://127.0.0.1:8098/riak/s20368/film1 -H "Content-Type: application/json" -d '{"tytul" : "Wladca Pierscieni", "liczba_czesci" : 3, "rezyser" : "Peter Jackson", "rok" : 2001}'
+
+(base) thatone@master:~/studia/nbd/riak$ curl -v  -X PUT http://127.0.0.1:8098/riak/s20368/film2 -H "Content-Type: application/json" -d '{"tytul" : "Twister", "liczba_czesci" : 1, "rezyser" : "Jan De Bont", "rok" : 1996}'
+
+(base) thatone@master:~/studia/nbd/riak$ curl -v  -X PUT http://127.0.0.1:8098/riak/s20368/film3 -H "Content-Type: application/json" -d '{"tytul" : "Kac Vegas", "liczba_czesci" : 3, "rezyser" : "Todd Philips", "rok" : 2009}'
+
+(base) thatone@master:~/studia/nbd/riak$ curl -v  -X PUT http://127.0.0.1:8098/riak/s20368/film4 -H "Content-Type: application/json" -d '{"tytul" : "Gwiezdne Wojny", "liczba_czesci" : 9, "rezyser" : "George Lucas", "rok" : 1977}'
+
+(base) thatone@master:~/studia/nbd/riak$ curl -v  -X PUT http://127.0.0.1:8098/riak/s20368/film5 -H "Content-Type: application/json" -d '{"tytul" : "Avengersi", "liczba_czesci" : 3, "rezyser" : "Joss Whedon", "rok" : 2012}'
+
+2.
+
+thatone@master:~/studia/nbd/riak$ curl -v http://127.0.0.1:8098/riak/s20368/film2
+
+3.
+
+curl -v -X PUT http://127.0.0.1:8098/riak/s20368/film5 -H "Content-Type: application/json" -d '{"tytul" : "Avengersi", "liczba_czesci" : 3, "rezyser" : "joss Whedon", "rok" : 2012, "gatunek" : "fantsy"}'
+
+4.
+
+thatone@master:~/studia/nbd/riak$ nbd/riak -X PUT http://127.0.0.1:8098/riak/s20368/film4 -H "Content-Type: application/json" -d '{"tytul" : "Gwiezdne Wojny", "liczba_czesci" : 9, "rezyser" : "George Lucas"}'
+
+5.
+
+ curl -v  -X PUT http://127.0.0.1:8098/riak/s20368/film3 -H "Content-Type: application/json" -d '{"tytul" : "Kac Vegas", "liczba_czesci" : 4, "rezyser" : "Todd Philips", "rok" : 2009}'
+
+6.
+
+thatone@master:~/studia/nbd/riak$ curl -v -XDELETE http://127.0.0.1:8098/riak/s20368/film1
+
+7.
+
+thatone@master:~/studia/nbd/riak$ curl -v http://127.0.0.1:8098/riak/s20368/film1
+8.
+
+thatone@master:~/studia/nbd/riak$ curl -v  -X PUT http://127.0.0.1:8098/riak/s20368/film6 -H "Content-Type: application/json" -d '{"test"}'
+
+9.
+
+thatone@master:~/studia/nbd/riak$ curl -v http://127.0.0.1:8098/riak/s20368/film6
+
+10.
+
+thatone@master:~/studia/nbd/riak$ curl -v -XDELETE http://127.0.0.1:8098/riak/s20368/film6

@@ -1,0 +1,100 @@
+*   Trying 127.0.0.1:8098...
+* Connected to 127.0.0.1 (127.0.0.1) port 8098 (#0)
+> PUT /riak/s20368/film1 HTTP/1.1
+> Host: 127.0.0.1:8098
+> User-Agent: curl/7.69.1
+> Accept: */*
+> Content-Type: application/json
+> Content-Length: 95
+> 
+* upload completely sent off: 95 out of 95 bytes
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 204 No Content
+< Vary: Accept-Encoding
+< Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+< Date: Tue, 16 Jun 2020 20:46:06 GMT
+< Content-Type: application/json
+< Content-Length: 0
+< 
+* Connection #0 to host 127.0.0.1 left intact
+
+*   Trying 127.0.0.1:8098...
+* Connected to 127.0.0.1 (127.0.0.1) port 8098 (#0)
+> PUT /riak/s20368/film2 HTTP/1.1
+> Host: 127.0.0.1:8098
+> User-Agent: curl/7.69.1
+> Accept: */*
+> Content-Type: application/json
+> Content-Length: 83
+> 
+* upload completely sent off: 83 out of 83 bytes
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 204 No Content
+< Vary: Accept-Encoding
+< Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+< Date: Tue, 16 Jun 2020 21:00:12 GMT
+< Content-Type: application/json
+< Content-Length: 0
+< 
+* Connection #0 to host 127.0.0.1 left intact
+
+*   Trying 127.0.0.1:8098…
+* Connected to 127.0.0.1 (127.0.0.1) port 8098 (#0)
+> PUT /riak/s20368/film3 HTTP/1.1
+> Host: 127.0.0.1:8098
+> User-Agent: curl/7.69.1
+> Accept: */*
+> Content-Type: application/json
+> Content-Length: 86
+> 
+* upload completely sent off: 86 out of 86 bytes
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 204 No Content
+< Vary: Accept-Encoding
+< Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+< Date: Tue, 16 Jun 2020 21:00:37 GMT
+< Content-Type: application/json
+< Content-Length: 0
+< 
+* Connection #0 to host 127.0.0.1 left intact
+
+   Trying 127.0.0.1:8098...
+* Connected to 127.0.0.1 (127.0.0.1) port 8098 (#0)
+> PUT /riak/s20368/film4 HTTP/1.1
+> Host: 127.0.0.1:8098
+> User-Agent: curl/7.69.1
+> Accept: */*
+> Content-Type: application/json
+> Content-Length: 91
+> 
+* upload completely sent off: 91 out of 91 bytes
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 204 No Content
+< Vary: Accept-Encoding
+< Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+< Date: Tue, 16 Jun 2020 21:00:49 GMT
+< Content-Type: application/json
+< Content-Length: 0
+< 
+* Connection #0 to host 127.0.0.1 left intact
+
+*   Trying 127.0.0.1:8098...
+* Connected to 127.0.0.1 (127.0.0.1) port 8098 (#0)
+> PUT /riak/s20368/film5 HTTP/1.1
+> Host: 127.0.0.1:8098
+> User-Agent: curl/7.69.1
+> Accept: */*
+> Content-Type: application/json
+> Content-Length: 85
+> 
+* upload completely sent off: 85 out of 85 bytes
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 204 No Content
+< Vary: Accept-Encoding
+< Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+< Date: Tue, 16 Jun 2020 21:01:06 GMT
+< Content-Type: application/json
+< Content-Length: 0
+< 
+* Connection #0 to host 127.0.0.1 left intact
+

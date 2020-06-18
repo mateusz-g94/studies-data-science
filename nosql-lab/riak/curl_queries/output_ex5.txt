@@ -1,0 +1,19 @@
+   Trying 127.0.0.1:8098...
+* Connected to 127.0.0.1 (127.0.0.1) port 8098 (#0)
+> PUT /riak/s20368/film3 HTTP/1.1
+> Host: 127.0.0.1:8098
+> User-Agent: curl/7.69.1
+> Accept: */*
+> Content-Type: application/json
+> Content-Length: 86
+> 
+* upload completely sent off: 86 out of 86 bytes
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 204 No Content
+< Vary: Accept-Encoding
+< Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+< Date: Tue, 16 Jun 2020 21:43:03 GMT
+< Content-Type: application/json
+< Content-Length: 0
+< 
+* Connection #0 to host 127.0.0.1 left intact

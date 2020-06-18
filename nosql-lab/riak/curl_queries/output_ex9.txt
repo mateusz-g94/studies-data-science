@@ -1,0 +1,21 @@
+*  Trying 127.0.0.1:8098...
+* Connected to 127.0.0.1 (127.0.0.1) port 8098 (#0)
+> GET /riak/s20368/film6 HTTP/1.1
+> Host: 127.0.0.1:8098
+> User-Agent: curl/7.69.1
+> Accept: */*
+> 
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+< X-Riak-Vclock: a85hYGBgzGDKBVI8ypz/fuqIvZ/DwKAumMGUyJjHyqB+KPYGXxYA
+< Vary: Accept-Encoding
+< Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+< Link: </riak/s20368>; rel="up"
+< Last-Modified: Tue, 16 Jun 2020 22:22:31 GMT
+< ETag: "2AnTuOkWceUIIPBXFryt6T"
+< Date: Tue, 16 Jun 2020 22:25:18 GMT
+< Content-Type: application/json
+< Content-Length: 8
+< 
+* Connection #0 to host 127.0.0.1 left intact
+{"test"}
